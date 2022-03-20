@@ -27,7 +27,6 @@ body {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  
 }
 .card {
   width: 23%;
@@ -147,42 +146,44 @@ a {
 
 @media (max-width: 1080px) {
   .card {
-  width: 46%;
-  
-}
-  .desconto{
-padding: 10px;
+    width: 46%;
+  }
+  .desconto {
+    padding: 10px;
+  }
 
-}
+  .super {
+    padding: 10px;
+  }
 
-.super{  
+  .rodapé p {
+    width: 90%;
+  }
 
-padding: 10px;
-
-}
- 
-.rodapé p{
-
-  width: 90%;
-}
-
-.rodapé img {
+  .rodapé img {
     left: 85%;
   }
 }
 
-.rodapé{
+.rodapé {
   padding: 10px;
 }
-@media (max-width: 760px){ 
+@media (max-width: 760px) {
+  html {
+    font-size: 85%;
+  }
 
-.card_container{
-  flex-direction: column
-}
+  .card_container {
+    flex-direction: column;
+  }
 
-.card{
-  width: 94%;
-  left: 13px;
-}
+  .card {
+    width: 94%;
+    left: 13px;
+  }
 
+  .rodapé img {
+    width: 12%;
+    padding-top: 10px;
+  }
 }
