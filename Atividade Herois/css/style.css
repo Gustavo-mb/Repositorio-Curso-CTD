@@ -52,19 +52,19 @@ body {
   border-top-right-radius: 5%;
 }
 .background_batman {
-  background-image: url(img/Fundo\ Batman.png);
+  background-image: url(/img/Fundo\ Batman.png);
 }
 
 .background_mulher_maravilha {
-  background-image: url(img/fundo\ mulher\ maravilha.png);
+  background-image: url(/img/fundo\ mulher\ maravilha.png);
 }
 
 .background_arlequina {
-  background-image: url(img/fundo\ arlequina.png);
+  background-image: url(/img/fundo\ arlequina.png);
 }
 
 .background_superman {
-  background-image: url(img/fundo\ superman.png);
+  background-image: url(/img/fundo\ superman.png);
 }
 .conteudo {
   display: flex;
