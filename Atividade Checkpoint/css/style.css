@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&family=Playfair+Display&display=swap");
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", Arial, sans-serif;
+}
+
+html {
+  font-size: 15px;
+}
+
+header {
+  width: 100%;
+  height: 300px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #4f3cff;
+  background-image: linear-gradient(
+    225deg,
+    #4f3cff 0%,
+    #224696 50%,
+    #000000 100%
+  );
+}
+
+.cidade {
+  font-family: "hurricane", Arial, sans-serif;
+  font-size: 3.5rem;
+  color: rgb(207, 202, 202);
+  padding-top: 100px;
+}
+
+.card__sao__paulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding-right: 54px;
+  padding-top: 30px;
+}
+
+li a {
+  text-decoration: none;
+  font-family: "hurricane", Arial, sans-serif;
+  font-size: 3.5rem;
+  color: rgb(207, 202, 202);
+}
+
+a:hover {
+  color: black;
+}
+
+section {
+  background-color: #4f3cff;
+}
+
+h2 {
+  font-family: "Hurricane", Arial, sans-serif;
+  font-size: 4rem;
+  padding-left: 138px;
+  padding-top: 80px;
+}
+h3 {
+  font-family: "Hurricane", Arial, sans-serif;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+h3 img {
+  width: 40%;
+  border-radius: 10px;
+}
+span {
+  font-weight: bold;
+}
+
+.logo {
+  width: 25%;
+  padding-left: 54px;
+  padding-top: 10px;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image: url(/img/são\ paulo.jpg);
+  width: 100%;
+  height: 450px;
+  font-size: 1.5rem;
+  text-align: justify;
+  color: rgb(207, 202, 202);
+  padding: 20px;
+}
+
+.elemento::first-letter {
+  font-size: 300%;
+}
+
+.card__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 600px;
+  border-radius: 31px;
+  background-color: #4f3cff;
+  background-image: linear-gradient(
+    225deg,
+    #4f3cff 0%,
+    #224696 50%,
+    #000000 100%
+  );
+  box-shadow: 10px 10px 10px rgb(0 0 0 /0.5);
+}
+
+.card img {
+  border-top-left-radius: 31px;
+  border-top-right-radius: 31px;
+}
+
+.texto {
+  color: rgb(207, 202, 202);
+  text-align: justify;
+  padding: 9px;
+  font-size: 1.2rem;
+}
+
+.card__video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.video {
+  padding-left: 10px;
+}
+
+iframe {
+  border-radius: 31px;
+  box-shadow: 10px 10px 10px rgb(0 0 0 / 0.5);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 350px;
+  background-color: #4f3cff;
+  background-image: linear-gradient(
+    225deg,
+    #4f3cff 0%,
+    #224696 50%,
+    #000000 100%
+  );
+}
+
+footer h2 {
+  color: rgb(207, 202, 202);
+  padding-top: 20px;
+}
+
+.redes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 160px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(207, 202, 202);
+}
+
+@media (max-width: 1280px) {
+  html {
+    font-size: 10px;
+  }
+
+  header {
+    height: 200px;
+  }
+
+  .cidade {
+    padding-top: 70px;
+  }
+
+  .logo {
+    width: 40%;
+  }
+
+  .conteudo {
+    height: 500px;
+    font-size: 1.8rem;
+  }
+
+  .card__container {
+    flex-wrap: wrap;
+  }
+
+  h2 {
+    padding-left: 55px;
+  }
+
+  .card {
+    width: 40%;
+    height: 420px;
+  }
+}
+
+.texto {
+  font-size: 1.6rem;
+  padding: 5px;
+  padding-top: 15px;
+}
+
+footer {
+  height: 350px;
+}
+
+.redes {
+  gap: 80px;
+}
+
+@media (max-width: 425px)  {
+  html{
+    font-size: 7px;
+  }
+
+ header{
+   height: 150px;
+ }
+
+ 
+ .card__sao__paulo{
+   gap: 10px;
+  
+ }
+ 
+ .logo{
+   width: 40%;
+   padding-left: 20px;
+   padding-top: 23px;
+  }
+ 
+ 
+ 
+ .cidade{
+  padding-top: 50px;
+  
+}
+
+ul{
+  padding-right: 20px;
+  gap: 20px;
+}
+
+.card__container{
+  flex-wrap: wrap;
+
+}
+
+.card{
+  width: 75%;
+  
+}
+
+.texto{
+  font-size: 2.2rem;
+  padding-top: 25px;
+  
+}
+
+iframe{
+  width: 90%;
+}
+
+footer{
+  height: 220px;
+
+}
+
+  .redes{
+    width: 90%;
+    gap: 10px;
+    padding-left: 70px;
+    
+  }
+
+}
