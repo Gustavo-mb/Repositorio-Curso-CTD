@@ -106,7 +106,7 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-image: url(.../img/são\ paulo.jpg);
+  background-image: url(../img/são\ paulo.jpg);
   width: 100%;
   height: 450px;
   font-size: 1.5rem;
