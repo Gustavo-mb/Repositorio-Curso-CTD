@@ -4,7 +4,7 @@
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
-  font-family: roboto, arial, sans-serif;
+  font-family: "roboto", arial, sans-serif;
 }
 .desconto {
   color: #333333;
@@ -29,7 +29,7 @@ body {
   flex-wrap: wrap;
 }
 .card {
-  width: 23%;
+  width: 25%;
   height: 597.01px;
   background: #e5e5e5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
