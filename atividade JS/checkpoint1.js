@@ -1,4 +1,4 @@
-readlineSync = require('readline-sync');
+ readlineSync = require('readline-sync');
 
 console.log(`ola lucas, qual prato vamos fazer hoje:
 
@@ -10,20 +10,22 @@ console.log(`ola lucas, qual prato vamos fazer hoje:
   
 let pedido = readlineSync.question(`escolha uma opcao acima `)
 
+let tempopd 
+
 if(pedido === '1'){
-    var tempopd =10
+     tempopd =10
     console.log(`voce selecionou pipoca`)
 }else if (pedido === '2'){
-    var tempopd =8
+     tempopd =8
     console.log(`voce selecionou macarrao`)
 }else if (pedido === '3'){
-    var tempopd =15
+     tempopd =15
     console.log(`voce selecionou carne`)
 }else if (pedido === '4'){
-    var tempopd =12
+     tempopd =12
     console.log(`voce selecionou feijao`)
 }else if (pedido ==='5'){
-    var tempopd =8
+     tempopd =8
     console.log(`voce selecionou brigadeiro`)
 }else {
     console.log(`prato inexistente`)
