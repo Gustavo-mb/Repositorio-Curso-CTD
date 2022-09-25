@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Houser Rent-A-Car | Home</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a href="index.html#home"><img src="img/Logo.png" class="img-fluid" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse d-lg-flex justify-content-end collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#itens">Itens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="nav__sobrenos" href="sobrenos.html">Sobre nós</a>
+                        </li>
+                        <li><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" href="#myBtn"
+                                id="myBtn">Login</a></li>
+
+                        <div class="container">
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" role="dialog">
+                                <div class="modal-dialog">
+
+                                    <!-- Conteúdo do modal -->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="logo__modal" src="img/Logo-modal.png" class="img-fluid" alt="Logo">
+                                            <form role="form">
+                                                <div class="form-group">
+                                                    <label for="usrname"><span class="glyphicon glyphicon-user"></span>
+                                                        Usuário</label>
+                                                    <input type="text" class="form-control" id="usrname"
+                                                        placeholder="E-mail">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="psw"><span class="glyphicon glyphicon-eye-open"></span>
+                                                        Senha</label>
+                                                    <input type="text" class="form-control" id="psw"
+                                                        placeholder="Senha">
+                                                </div>
+                                                <div class="checkbox">
+                                                    <label><input type="checkbox" value="" checked>Lembrar-me</label>
+                                                </div>
+                                                <button type="submit" class="btn btn-success btn-block" id="button__success"><span
+                                                        class="glyphicon glyphicon-off"></span> Entrar</button>
+                                            </form>
+                                        </div>
+                                        <div class="modal-ftr">
+                                            <p>Não é usuário? <a href="#">Registrar-se</a></p>
+                                            <p><a href="#">Esqueceu a senha?</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="outer__banner">
+            <div class="row" id="row__config">
+                <div class="inner__banner">
+                    <section class="banner" id="home">
+                        <div class="overlay__banner">
+                            <div class="presentation__config">
+                                <div class="text__container">
+                                    <h2 class="banner__title">Houser Rent-A-Car</h2>
+                                    <p class="banner__text">Visite novos lugares com qualidade e segurança
+                                        com os carros da Houser Rent-A-Car.</p>
+                                </div>
+                                <a class="button__exp" href="#itens">Explorar</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="items__title, row">
+                <h2 id="itens" class="d-flex flex-row justify-content-center align-items-center">Itens</h2>
+            </div>
+        </div>
+        <div class="container__organizer">
+            <div class="cards__container">
+                <div class="containercrd">
+                    <div class="card__header">
+                        <p class="card__title">Carro Hatch Compacto 1.0</p>
+                        <p class="card__subtitle">Grupo AM</p>
+                        <p class="card__carinfo">Fiat Mobi</p>
+                    </div>
+                    <div class="car__bg"><img src="img/fiat_mobi.png" alt="Fiat Mobi"></div>
+                    <div class="card__footer">
+                        <p>A partir de</p> R$ <span class="value">92,69/</span>Diária
+                        <div>
+                            <app-button><a class="primary-button" href="itens.html">Alugar</a></app-button>
+                        </div>
+                    </div>
+                </div>
+                <div class="containercrd">
+                    <div class="card__header">
+                        <p class="card__title">Carro Hatch Médio 1.0</p>
+                        <p class="card__subtitle">Grupo B</p>
+                        <p class="card__carinfo">Fiat Argo</p>
+                    </div>
+                    <div class="car__bg"><img src="img/fiat_argo.png" alt="Fiat Mobi"></div>
+                    <div class="card__footer">
+                        <p>A partir de</p> R$ <span class="value">92,71/</span>Diária
+                        <div>
+                            <app-button><a class="primary-button" href="itens2.html">Alugar</a></app-button>
+                        </div>
+                    </div>
+                </div>
+                <div class="containercrd">
+                    <div class="card__header">
+                        <p class="card__title">Carro Adaptado</p>
+                        <p class="card__subtitle">Grupo AD</p>
+                        <p class="card__carinfo">Renault Fluence</p>
+                    </div>
+                    <div class="car__bg"><img src="img/renault_fluence.png" alt="Fiat Mobi"></div>
+                    <div class="card__footer">
+                        <p>A partir de</p> R$ <span class="value">158,67/</span>Diária
+                        <div>
+                            <app-button><a class="primary-button" href="itens3.html">Alugar</a></app-button>
+                        </div>
+                    </div>
+                </div>
+                <div class="containercrd">
+                    <div class="card__header">
+                        <p class="card__title">Carro Sedan Médio</p>
+                        <p class="card__subtitle">Grupo CX</p>
+                        <p class="card__carinfo">Volkswagen Virtus</p>
+                    </div>
+                    <div class="car__bg"><img src="img/cx_volkswagen_virtus.png" alt="Virtus"></div>
+                    <div class="card__footer">
+                        <p>A partir de</p> R$ <span class="value">117,57/</span>Diária
+                        <div>
+                            <app-button><a class="primary-button" href="itens5.html">Alugar</a></app-button>
+                        </div>
+                    </div>
+                </div>
+                <div class="containercrd">
+                    <div class="card__header">
+                        <p class="card__title">Carro Blindado</p>
+                        <p class="card__subtitle">Grupo BL</p>
+                        <p class="card__carinfo">Volkswagen Tiguan Allspace</p>
+                    </div>
+                    <div class="car__bg"><img src="img/bl_volkswagen_tiguan-2.png" alt="Tiguan Allspace">
+                    </div>
+                    <div class="card__footer">
+                        <p>A partir de</p> R$ <span class="value">223,57/</span>Diária
+                        <div>
+                            <app-button><a class="primary-button" href="itens4.html">Alugar</a></app-button>
+                        </div>
+                    </div>
+                </div>
+                <div class="containercrd">
+                    <div class="card__header">
+                        <p class="card__title">Carro Luxo</p>
+                        <p class="card__subtitle">Grupo LX</p>
+                        <p class="card__carinfo">Mercedes-Benz C180</p>
+                    </div>
+                    <div class="car__bg"><img src="img/lx_mercedes_c180.png" alt="Mercedez-Benz C180"></div>
+                    <div class="card__footer">
+                        <p>A partir de</p> R$ <span class="value">207,40/</span>Diária
+                        <div>
+                            <app-button><a class="primary-button" href="itens6.html">Alugar</a></app-button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="divfooter_participantes">
+            <div class="footer_naickely"> Naickely M. Fernandes
+                <p>Criação e estilização do Header, Footer e responsividade versão Desktop/Mobile</p>
+                <a href="https://github.com/Naickely" target="_blank"> <img class="footer_img" src="img/github.png"
+                        alt=""></a>
+                <a href="https://www.linkedin.com/in/naickely-monteiro-790198235/" target="_blank"> <img
+                        class="footer_img" src="img/linkedin.png" alt=""></a>
+            </div>
+            <div class="footer_murilo"> Murilo B. Dias
+                <p>Criação e estilização do Header, Home, Sobre Nós, Design Logo/Banner, Modal e responsividade versão
+                    Desktop/Mobile/Tablet
+                </p>
+                <a href="https://github.com/mubdias/" target="_blank"> <img class="footer_img" src="img/github.png"
+                        alt=""></a>
+                <a href="https://www.linkedin.com/in/murilo-barberini-dias-15854711a/" target="_blank"> <img
+                        class="footer_img" src="img/linkedin.png" alt=""></a>
+            </div>
+            <div class="footer_gustavo"> Gustavo Moraes
+                <p>Criação e estilização da página Itens e responsividade versão Desktop/Mobile</p>
+                <a href="https://github.com/Gustavo-mb" target="blank"> <img class="footer_img" src="img/github.png"
+                        alt=""></a>
+                <a href="https://www.linkedin.com/in/gustavo-moraes-7a1b63232/" target="blank"> <img class="footer_img"
+                        src="img/linkedin.png" alt=""></a>
+            </div>
+        </div>
+        <div class="divfooter_infogeral">
+            <p>Checkpoint 2 desenvolvido em 2022</p>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

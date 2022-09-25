@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #696969;
+}
+
+#row__config {
+  --bs-gutter-x: none;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: 0.15s ease-in-out;
+}
+
+#nav__sobrenos {
+  width: 95px;
+}
+
+.navbar-collapse .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar-collapse #nav__sobrenos {
+  width: 88px;
+  display: flex;
+  flex-direction: column;
+  align-items: self-end;
+}
+
+.body {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: 10px 5px 5px #212529;
+  background-color: #fff;
+  scroll-behavior: smooth;
+}
+
+.banner {
+  position: relative;
+  background-image: url("../img/banner-carro.jpg");
+  background-attachment: fixed;
+  background-size: contain;
+  background-color: #a00303;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  box-shadow: 0px 4px 4px rgb(170, 169, 169);
+  margin-bottom: 25px;
+}
+
+.presentation__config {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.text__container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: content;
+  margin-right: 0px;
+}
+
+.banner__text {
+  width: 480px;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+  line-height: 28px;
+  text-align: center;
+}
+
+.banner__title {
+  font-size: 3.5rem;
+  color: rgb(238, 34, 34);
+  font-weight: 700;
+  text-align: left;
+}
+
+a.button__exp {
+  display: inline-block;
+  padding: 0.35rem 1.2em;
+  border: 0.1rem solid #ffffff;
+  margin: 0 0.3rem 0.3rem 0;
+  border-radius: 0.12rem;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+}
+a.button__exp:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.overlay__banner {
+  height: 715px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: relative;
+  width: 100%;
+  z-index: 4;
+}
+
+.items__title {
+  margin-top: 25px;
+  background-color: #a70101;
+}
+
+.container__organizer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cards__container {
+  width: 58%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  gap: 45px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+.containercrd {
+  height: 470px;
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #d7d7d7;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  transform: scale(1);
+  opacity: 1;
+  transition: all 150ms ease-in-out;
+}
+
+.containercrd:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.car__bg img {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.card__header {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  text-align: center;
+  line-height: 1.2;
+  height: 120px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+.card__title {
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: 700;
+  min-height: 50px;
+}
+
+.card__subtitle {
+  font-size: 14px;
+  color: rgba(68, 68, 68, 0.6);
+  font-weight: 400;
+}
+
+.card__carinfo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #444;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.2;
+  min-height: 57px;
+}
+
+.slide-img {
+  position: relative;
+  display: block;
+}
+
+.card__body {
+  margin-bottom: 1.5rem;
+}
+
+.car__bg {
+  width: 100%;
+}
+
+.card__footer {
+  position: relative;
+  font-size: 1rem;
+  margin: 0 auto 6px;
+  font-family: 'Roboto', sans-serif;
+  color: #a70101;
+  font-style: normal;
+  font-weight: 700;
+  text-align: left;
+  line-height: 1.2;
+}
+
+.card__footer p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #535353;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.2;
+  margin-bottom: 6px;
+}
+
+.card__footer span.value {
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+}
+
+.card__footer div {
+  margin-top: 32px;
+}
+
+.primary-button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+  line-height: 1.2;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  background-color: #a70101;
+  border-radius: 50px;
+  padding: 10px 45px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.primary-button:hover {
+  color: rgb(255, 255, 255);
+}
+
+.primary-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  transition: all 0.3s ease;
+  z-index: -1;
+  transform: translateX(-100%);
+}
+
+footer {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  font-weight:lighter;
+  text-align: center;
+  gap: 1.5rem;
+  box-shadow: 0px -4px 4px rgb(170, 169, 169);
+  color: whitesmoke;
+  background-color: #343a40;
+}
+
+.footer_img {
+  margin-right: 5px;
+}
+
+.footer_img:hover {
+  transform: scale(1.5);
+}
+
+.divfooter_participantes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.divfooter_participantes img {
+  height: 2rem;
+}
+
+.divfooter_infogeral {
+  font-size: normal;
+  margin-top: 25px;
+}
+
+.primary-button:hover::before {
+  transform: translateX(0);
+}
+
+@media (min-width: 1000px) {
+
+  .navbar {
+    width: 100%;
+    background-color: #696969;
+  }
+
+  .outer__banner {
+    width: 100%;
+  }
+
+  .inner__banner {
+    width: 100%;
+  }
+  .banner__text {
+    width: 725px;
+  }
+
+  .items__title {
+    height: 80vh;
+    justify-content: center;
+  }
+
+  .cards__container {
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+  .header_mobile {
+    display: none;
+  }
+
+  .divfooter_participantes {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1145px) {
+  .cards__container {
+    padding-top: 25px;
+    padding-bottom: 30px;
+    width: 64%;
+}
+}

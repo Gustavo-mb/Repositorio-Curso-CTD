@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+.modal-header,
+h4,
+.close,
+.button {
+  background-color: #a70101;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: 300;
+  font-size: 1.5rem;
+}
+
+#button__success {
+  color: #fff;
+  background-color: #a70101;
+  border-color: #a70101;
+  font-family: 'Roboto', sans-serif;
+  font-style: 300;
+}
+
+.modal-body {
+  padding: 40px 50px;
+}
+
+.logo__modal {
+  margin: 0px 150px 0px 150px;
+}
+
+.modal-header {
+  padding: 35px 50px;
+}
+
+.modal-ftr {
+  font-family: 'Roboto', sans-serif;
+  font-style: 300;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem;
+  border-top: 1px solid #dee2e6;
+  border-bottom-right-radius: calc(0.3rem - 1px);
+  border-bottom-left-radius: calc(0.3rem - 1px);
+}
+
+#myBtn {
+  color: #fff;
+  background-color: #a70101;
+  border-color: #a70101;
+  margin-left: 10px;
+}

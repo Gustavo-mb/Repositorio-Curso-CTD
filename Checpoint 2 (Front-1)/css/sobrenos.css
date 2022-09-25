@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+span {
+  font-weight: bolder;
+  color: #a70101;
+}
+
+.title {
+  margin-top: 25px;
+}
+
+.container {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.content-section {
+  float: none;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.content-section .title {
+  margin-bottom: 25px;
+}
+
+.content-section .content {
+  margin-bottom: 15px;
+}
+
+.text__aboutus {
+  text-indent: 30px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.container__button {
+  width: 185px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin: 25px 0px 0px 165px;
+}
+
+.image-section {
+  float: none;
+  width: 100%;
+  margin-bottom: 45px;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 25px 0px 15px 0px;
+}
+
+.content-section .title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 19px;
+}
+
+.section {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+footer {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  text-align: center;
+  gap: 1.5rem;
+  box-shadow: 0px -4px 4px rgb(170, 169, 169);
+  color: whitesmoke;
+  background-color: #696969;
+}
+
+.footer_img:hover {
+  transform: scale(1.5);
+}
+
+.divfooter_participantes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.divfooter_participantes img {
+  height: 2rem;
+}
+
+.divfooter_infogeral {
+  font-size: larger;
+}
+
+@media (min-width: 999px) {
+  .navbar-expand-lg .navbar-nav {
+    height: 35px;
+  }
+
+  .container-fluid {
+    height: 7vh;
+  }
+
+  .container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+  }
+
+  .section {
+    width: 100%;
+    min-height: 85vh;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .content-section {
+    float: left;
+    width: 55%;
+  }
+
+  .image-section {
+    float: right;
+    width: 40%;
+    height: 275px;
+  }
+
+  .image-section img {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+  }
+
+  .container__button {
+    width: 185px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 25px 0px 0px 265px;
+  }
+  .content-section .title {
+    text-transform: uppercase;
+    font-size: 28px;
+  }
+
+  .content-section .content p {
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .text__aboutus {
+    text-indent: 30px;
+    text-align: justify;
+  }
+
+  .divfooter_participantes {
+    flex-direction: row;
+  }
+}
