@@ -1,0 +1,16 @@
+.nome{
+   color: brown;
+   padding: 20px;
+}
+
+.eletro{
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 40px;
+}
+
+.valor{
+   padding: 20px;
+}
